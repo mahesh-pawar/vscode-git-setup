@@ -10,6 +10,6 @@ Steps to integrate Git to VS Code Editor.
 6. Make Chanegs in file and save it.
 7. Stage changes.
 8. Commit stage changes by clicking on tick icon and write commit description.
-9. Syncronize changes and push all the changes to Git Repository.
+9. Synchronize changes and push all the changes to Git Repository.
 
 Thats all about integrating Git with Visual Studio Code Editor :)
