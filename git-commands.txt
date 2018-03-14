@@ -1,0 +1,85 @@
+
+Step 1 : Download GitHub Desktop Application to manage your Project (Git Repository)
+
+  From Link :	https://desktop.github.com/ 
+		 
+Step 2 : Signup or Signin to your GitHub Account.
+
+  From Link :    https://github.com/		
+
+Step 3 : Create a new repository to Manage your project.
+         You can find a green button at right sidebar (+ New repository) to create new repository.
+		 
+		 If you already have a repository in your account then skip it.
+
+Step 4 : Now goto your desktop app and login with your GitHub Credentials i.e your email and password.
+
+Step 5 : At the left Top your Desktop app you can find  "+" in GitHub Desktop.
+    a) Click on the +. 
+    b) click on clone.
+    c) Select your repository.
+    d) Clik on bottom button.
+    e) select a location to save repository.
+		 
+Step 6 : now you can see a copy of your repository is available to your desktop at the location you choose to save repository.
+         you can (make and save) any change to your project from your desktop repository.
+
+Step 7 : To test how it's work create a file inside your Desktop repository which is also called  local repository. 
+
+Step 8 : Now open Git Shell.
+         a) Right click on repository from Desktop GitHub
+         b) Select Open in Git Shell. 
+        
+Step 9 : To work with Git shell you need to learn some Easy shell commands.	
+         Have a look about repository  Branch.
+		 
+		 Branch : To work with Your Team you need to create seprate branchs for each member of your team.
+				  So that member can make any changes to his branch without changing the master copy.
+		          
+				  For testing purpose branchname = test1;
+				  
+    1)git branch branchname (To create New Branch eg : test1).
+    2)git checkout branchname (Goto the branch or select/switch the branch eg: test1).
+    3)git status (check status of current branch).
+    4)git add --a (to untrack/new changes).
+    5)git commit -m 'message' (to make changes point you can revert or these points).
+    6)git push origin test1 (push Commit to the origin / master ,sync your branch with Master Copy).
+    7)git checkout master (goto master branch).
+    8)git merge test1 (merge neeraj branch to master branch).
+    9)git status (check status of master branch).
+    10)git push (push all the updates).
+    12)git revert <commitid>
+    11)git reset --hard
+		
+These above some basic commands to work with your repository using git shell.
+Now it's time to test these commands on git shell.
+		
+You can find more commands on Google,Git documentation or other git Shell related tutorials.
+       
+       
+========================================================
+Git issue: Your branch and ‘origin/master’ have diverged
+========================================================
+
+[Issue] - 
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   application/controllers/builder_login.php
+
+[Solution] -	
+git reset --hard origin/master   
+	     		
+		
+		 
+    		 
+		
+		 
+ 		 
+		 
+		 
+		 
