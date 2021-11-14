@@ -8,7 +8,7 @@ The git stash command takes your uncommitted changes (both staged and unstaged),
 **Lists all the stashes** -
 > git stash list
 
-**Gets the latest stash from stash list** -
+**Gets latest stash from stash list** -
 > git stash pop
 
 **Gets specific stash by index** -
