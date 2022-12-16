@@ -21,7 +21,7 @@ These are the basic commands that every developer should follow while deplying a
 #### Step 6. Push your changes to your branch.
      git push --set-upstream-to origin mahesh
      or
-     git push origin mahesh
+     git push -u origin mahesh
      or 
      git push
 
