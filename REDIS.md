@@ -22,5 +22,11 @@ Here are the steps to install Redis on an Ubuntu system:
 
 #### To restart the Redis server, run:
     sudo systemctl restart redis
+    
+#### Install the Redis PHP extension:
+sudo apt-get install php7.4-redis
+
+#### Restart PHP-FPM:
+sudo systemctl restart php7.4-fpm    
 
 That's it! You should now have Redis installed and running on your Ubuntu system.
