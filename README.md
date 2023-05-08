@@ -19,7 +19,7 @@ These are the basic commands that every developer should follow while deplying a
      git commit -m "Added list board function"
 
 #### Step 6. Push your changes to your branch.
-     git push --set-upstream-to origin mahesh
+     git push --set-upstream origin mahesh
      or
      git push -u origin mahesh
      or 
